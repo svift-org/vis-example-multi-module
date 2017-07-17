@@ -35,11 +35,11 @@ SVIFT.vis.example.multi = (function (data, container) {
 
     module.timeline.circle.obj.interpolate = SVIFT.helper.interpolate([
       {value:25},
-      {value:width-100, duration:2, ease:d3.easeCubicInOut},
+      {value:width-100+25, duration:2, ease:d3.easeCubicInOut},
       {value:25, duration:2},
-      {value:(width-100)/2, duration:1, ease:d3.easeCubicInOut},
+      {value:(width-100+25)/2, duration:1, ease:d3.easeCubicInOut},
       {value:25, duration:5, ease:d3.easeCubicInOut},
-      {value:width-100, duration:2, ease:d3.easeCubicInOut}
+      {value:width-100+25, duration:2, ease:d3.easeCubicInOut}
     ]);
 
     if(!module.playState){
